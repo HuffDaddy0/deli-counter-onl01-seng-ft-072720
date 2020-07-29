@@ -4,8 +4,8 @@ def line(array)
     new_array = []
     array.each_with_index do |name, index|
     new_array.push("#{index+1}: #{name}")
-    puts "The line is currently: #{new_array.join(" ")}"
   end
+  puts "The line is currently: #{new_array.join(" ")}"
   else
     puts "The line is currently empty."
   end
