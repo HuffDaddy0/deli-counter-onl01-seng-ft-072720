@@ -1,6 +1,9 @@
 # Write your code here.
 def line(array)
-  array.length >= 1 ? {puts array : puts "the line is currently empty."}
+  if array.length >= 1
+    puts array
+  else
+    puts "The line is currently empty."
 end
 
 def take_a_number(array, name)
